@@ -1,5 +1,5 @@
 // Example
-let message = "HackeMan is in";
+let message = "HackeMa is in";
 console.log(message);
 
 let doesLikeBacon = true;
