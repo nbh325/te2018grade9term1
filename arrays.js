@@ -10,6 +10,14 @@ firstLast6([13, 6, 1, 2, 3]) → false
 *******************************************************************************/
 
 function firstLast6(nums) {
+  if (nums[0] == 6|| ==nums[length-1] ==6){
+    return true
+  }
+  else{
+    return false
+}
+    }
+
 
 }
 
@@ -28,6 +36,11 @@ midThree([1, 2, 3]) → [1, 2, 3]
 *******************************************************************************/
 
 function midThree(nums) {
+let mid == (nums.length/2)- 0.5
+let num2 == (middle-1)
+let end == (middle+1)
+
+nums.splice [num2, end]
 
 }
 
